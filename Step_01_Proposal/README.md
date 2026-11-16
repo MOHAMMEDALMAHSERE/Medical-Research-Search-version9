@@ -103,7 +103,7 @@ This section addresses the first assessment criterion of Phase 1: Problem Defini
 - [x] Define planned document fields.
 - [x] Document dataset licensing considerations.
 - [x] Assign individual team responsibilities.
-- [ ] Prepare the formal project proposal PDF.
+- [x] Prepare the formal project proposal PDF.
 
 ## 7. Expected Deliverables
 
