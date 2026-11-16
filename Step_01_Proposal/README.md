@@ -54,7 +54,7 @@ Both approaches will operate on the same document collection and use consistent 
 | [Search Features](search_features.md) | Expected system features, inputs, outputs, and retrieval methods |
 | [Dataset Description](dataset_description.md) | Dataset source, structure, licensing, and acquisition plan |
 | [Team Roles](team_roles.md) | Team members and individual technical responsibilities |
-| Phase 1 Proposal PDF | Pending preparation |
+| [Phase 1 Project Proposal](phase1-proposal.docx) | Final academic project proposal |
 
 ## 5. Proposed System Architecture
 
@@ -118,11 +118,11 @@ This section addresses the first assessment criterion of Phase 1: Problem Defini
 
 ## 8. Development Status
 
-The project is currently in the planning and documentation stage.
+Step 01 — Problem Definition and Project Proposal is completed.
 
-The problem definition, project objectives, expected search features, dataset acquisition strategy, and team responsibilities have been documented.
+All proposal documents have been prepared, including the problem definition, project objectives, expected search features, dataset acquisition strategy, and updated team responsibilities.
 
-The actual implementation and validation of the dataset acquisition pipeline, text preprocessing, inverted index, Boolean retrieval, ranked retrieval, and system integration will be completed during the subsequent development steps.
+The project will now proceed to Step 02 — Progress and Teamwork.
 
 ## 9. Project Navigation
 
