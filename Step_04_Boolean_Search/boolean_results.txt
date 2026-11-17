@@ -1,0 +1,71 @@
+Input CSV: ..\Step_03_Preprocessing\dataset\documents.csv; indexed documents: 1000
+
+Query: covid AND vaccine
+Matches: 21
+  0wycbaki: Societal heterogeneity contributes to complex dynamic patterns of the COVID-19 pandemics: insights from a novel Stochastic Heterogeneous Epidemic Model (SHEM)
+  4jeaqqn9: COVID-19 diagnosis and study of serum SARS-CoV-2 specific IgA, IgM and IgG by a quantitative and sensitive immunoassay
+  59cuhfi5: Gaining insights on immune responses to the novel coronavirus, COVID-19 and therapeutic challenges
+  640sw4pb: Potential of live pathogen vaccines for defeating the COVID-19 pandemic: History and mechanism
+  a00crtah: Addressing COVID‐19 Drug Development with Artificial Intelligence
+  bgdr25z1: The Potential Impact of Intensified Community Hand Hygiene Interventions on Respiratory tract Infections: A Modelling Study
+  ez4v8xr0: IgA dominates the early neutralizing antibody response to SARS-CoV-2
+  gj2bnruy: Network Analysis and Transcriptome Profiling Identify Autophagic and Mitochondrial Dysfunctions in SARS-CoV-2 Infection
+  hl284v4g: Efficient production of recombinant SARS-CoV-2 spike protein using the baculovirus-silkworm system
+  icp4msxk: Social Distancing against COVID-19: Implication for the Control of Influenza
+  ... 11 more
+
+Query: covid OR vaccine
+Matches: 357
+  02zdg7ue: Education in the Context of the Pandemic: A Look at the Case of Portugal
+  04esvfhp: Features of COVID-19 post-infectious cytokine release syndrome in children presenting to the emergency department
+  05emvz2v: Phylogenetic analysis of partial S1 and N gene sequences of infectious bronchitis virus isolates from Italy revealed genetic diversity and recombination
+  07uzz649: Convalescent Plasma Therapy: A Passive Therapy for An Aggressive COVID‐19
+  085rj2qr: Characteristics of personal protective equipment training programs in Australia and New Zealand hospitals: A survey
+  0anag9ax: How urgent do intravitreal anti-VEGF injections need to be to justify the risk of transmitting COVID-19? Proof-of-concept calculations to determine the Health Adjusted Life-Year (HALY) trade-off.
+  0c5hleux: A systematic review on use of aminoquinolines for the therapeutic management of COVID-19: Efficacy, safety and clinical trials
+  0iowpdrz: COVID-19: Physiopathologie d’une maladie à plusieurs visages
+  0iwdqbu6: Increased levels of anxiety among medical and non-medical university students during the COVID-19 pandemic in the United Arab Emirates.
+  0j6a5xqc: Identification of Vulnerable Populations and Areas at Higher Risk of COVID-19 Related Mortality in the U.S.
+  ... 347 more
+
+Query: covid AND NOT vaccine
+Matches: 280
+  02zdg7ue: Education in the Context of the Pandemic: A Look at the Case of Portugal
+  04esvfhp: Features of COVID-19 post-infectious cytokine release syndrome in children presenting to the emergency department
+  07uzz649: Convalescent Plasma Therapy: A Passive Therapy for An Aggressive COVID‐19
+  085rj2qr: Characteristics of personal protective equipment training programs in Australia and New Zealand hospitals: A survey
+  0anag9ax: How urgent do intravitreal anti-VEGF injections need to be to justify the risk of transmitting COVID-19? Proof-of-concept calculations to determine the Health Adjusted Life-Year (HALY) trade-off.
+  0c5hleux: A systematic review on use of aminoquinolines for the therapeutic management of COVID-19: Efficacy, safety and clinical trials
+  0iowpdrz: COVID-19: Physiopathologie d’une maladie à plusieurs visages
+  0iwdqbu6: Increased levels of anxiety among medical and non-medical university students during the COVID-19 pandemic in the United Arab Emirates.
+  0j6a5xqc: Identification of Vulnerable Populations and Areas at Higher Risk of COVID-19 Related Mortality in the U.S.
+  0j7o8vr2: Minimally invasive urologic surgery is safe during COVID-19: experience from two high-volume centers in Italy
+  ... 270 more
+
+Query: NOT vaccine
+Matches: 923
+  02zdg7ue: Education in the Context of the Pandemic: A Look at the Case of Portugal
+  04esvfhp: Features of COVID-19 post-infectious cytokine release syndrome in children presenting to the emergency department
+  065hmngz: Bronchiolitis obliterans organizing pneumonia after radiofrequency ablation of lung cancer: report of three cases.
+  07uzz649: Convalescent Plasma Therapy: A Passive Therapy for An Aggressive COVID‐19
+  085rj2qr: Characteristics of personal protective equipment training programs in Australia and New Zealand hospitals: A survey
+  0anag9ax: How urgent do intravitreal anti-VEGF injections need to be to justify the risk of transmitting COVID-19? Proof-of-concept calculations to determine the Health Adjusted Life-Year (HALY) trade-off.
+  0c5hleux: A systematic review on use of aminoquinolines for the therapeutic management of COVID-19: Efficacy, safety and clinical trials
+  0d8hf8qv: Applications of isothermal titration calorimetry in protein folding and molecular recognition
+  0dxdevrn: Endovascular Stroke Treatment of Nonagenarians.
+  0i91ep6k: Food for Thought: Reward Mechanisms and Hedonic Overeating in Obesity.
+  ... 913 more
+
+Query: (covid OR virus) AND vaccine
+Matches: 53
+  05emvz2v: Phylogenetic analysis of partial S1 and N gene sequences of infectious bronchitis virus isolates from Italy revealed genetic diversity and recombination
+  0pmsfrcx: Zika Vaccine Development: Current Status
+  0wycbaki: Societal heterogeneity contributes to complex dynamic patterns of the COVID-19 pandemics: insights from a novel Stochastic Heterogeneous Epidemic Model (SHEM)
+  1d17iafs: Priming with a DNA vaccine and boosting with an inactivated vaccine enhance the immune response against infectious bronchitis virus
+  1m5h3krw: Porcine deltacoronavirus infection: Etiology, cell culture for virus isolation and propagation, molecular epidemiology and pathogenesis
+  2y5pzp8l: Receptor-binding domain of SARS-Cov spike protein: soluble expression in E. coli, purification and functional characterization.
+  4jeaqqn9: COVID-19 diagnosis and study of serum SARS-CoV-2 specific IgA, IgM and IgG by a quantitative and sensitive immunoassay
+  52dgyqyp: Evaluation of humoral immune status in porcine epidemic diarrhea virus (PEDV) infected sows under field conditions
+  59cuhfi5: Gaining insights on immune responses to the novel coronavirus, COVID-19 and therapeutic challenges
+  640sw4pb: Potential of live pathogen vaccines for defeating the COVID-19 pandemic: History and mechanism
+  ... 43 more
