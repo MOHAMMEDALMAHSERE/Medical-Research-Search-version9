@@ -1,0 +1,24 @@
+Input CSV: ..\Step_03_Preprocessing\dataset\documents.csv
+Documents: 1000; unique terms: 10758; postings: 87381
+Documents with zero indexed terms: 0
+
+Term: covid; document frequency: 301; sample IDs: ['02zdg7ue', '04esvfhp', '07uzz649', '085rj2qr', '0anag9ax']
+  02zdg7ue: Education in the Context of the Pandemic: A Look at the Case of Portugal
+  04esvfhp: Features of COVID-19 post-infectious cytokine release syndrome in children presenting to the emergency department
+  07uzz649: Convalescent Plasma Therapy: A Passive Therapy for An Aggressive COVID‐19
+  085rj2qr: Characteristics of personal protective equipment training programs in Australia and New Zealand hospitals: A survey
+  0anag9ax: How urgent do intravitreal anti-VEGF injections need to be to justify the risk of transmitting COVID-19? Proof-of-concept calculations to determine the Health Adjusted Life-Year (HALY) trade-off.
+
+Term: vaccine; document frequency: 77; sample IDs: ['05emvz2v', '0pmsfrcx', '0wfsr4iw', '0wycbaki', '1d17iafs']
+  05emvz2v: Phylogenetic analysis of partial S1 and N gene sequences of infectious bronchitis virus isolates from Italy revealed genetic diversity and recombination
+  0pmsfrcx: Zika Vaccine Development: Current Status
+  0wfsr4iw: Trends in influenza and pneumococcal vaccine coverage in Thai patients with type 2 diabetes mellitus 2010-2018: Experience from a tertiary diabetes center in Bangkok
+  0wycbaki: Societal heterogeneity contributes to complex dynamic patterns of the COVID-19 pandemics: insights from a novel Stochastic Heterogeneous Epidemic Model (SHEM)
+  1d17iafs: Priming with a DNA vaccine and boosting with an inactivated vaccine enhance the immune response against infectious bronchitis virus
+
+Term: virus; document frequency: 253; sample IDs: ['05emvz2v', '0j7o8vr2', '0lp2aqlu', '0pmsfrcx', '13559uun']
+  05emvz2v: Phylogenetic analysis of partial S1 and N gene sequences of infectious bronchitis virus isolates from Italy revealed genetic diversity and recombination
+  0j7o8vr2: Minimally invasive urologic surgery is safe during COVID-19: experience from two high-volume centers in Italy
+  0lp2aqlu: Complications of seasonal and pandemic influenza.
+  0pmsfrcx: Zika Vaccine Development: Current Status
+  13559uun: Trial of Chloroquines in the Treatment of COVID-19 and Its Research Progress in Forensic Toxicology
