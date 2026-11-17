@@ -1,0 +1,20 @@
+test_boolean_regression (__main__.RealCorpusTests.test_boolean_regression) ... ok
+test_cli_demo_from_different_directory (__main__.RealCorpusTests.test_cli_demo_from_different_directory) ... ok
+test_cli_missing_dataset (__main__.RealCorpusTests.test_cli_missing_dataset) ... ok
+test_dataset_integrity (__main__.RealCorpusTests.test_dataset_integrity) ... ok
+test_index_matrix_consistency (__main__.RealCorpusTests.test_index_matrix_consistency) ... ok
+test_ranked_regression (__main__.RealCorpusTests.test_ranked_regression) ... ok
+test_boolean_logic (__main__.SyntheticTests.test_boolean_logic) ... ok
+test_index (__main__.SyntheticTests.test_index) ... ok
+test_interactive_menu (__main__.SyntheticTests.test_interactive_menu) ... ok
+test_invalid_boolean (__main__.SyntheticTests.test_invalid_boolean) ... ok
+test_invalid_csv (__main__.SyntheticTests.test_invalid_csv) ... ok
+test_preprocessing (__main__.SyntheticTests.test_preprocessing) ... ok
+test_ranked_empty_and_invalid (__main__.SyntheticTests.test_ranked_empty_and_invalid) ... ok
+test_ranked_top_k_and_bounds (__main__.SyntheticTests.test_ranked_top_k_and_bounds) ... ok
+test_ranking_ties (__main__.SyntheticTests.test_ranking_ties) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 8.257s
+
+OK
