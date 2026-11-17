@@ -1,0 +1,83 @@
+Dataset: documents.csv
+Documents: 1000 | Vocabulary: 10758 | Postings: 87381
+TF-IDF shape: (1000, 10758) | Nonzero weights: 87381
+
+=== Preprocessing (illustrative input) ===
+original: COVID-19 vaccines are reducing infections.
+normalized: covid-19 vaccines are reducing infections.
+tokens: ['covid', '19', 'vaccines', 'are', 'reducing', 'infections']
+after_stopwords: ['covid', '19', 'vaccines', 'reducing', 'infections']
+final_terms: ['covid', '19', 'vaccin', 'reduc', 'infect']
+
+=== Boolean retrieval ===
+Query: covid AND vaccine
+Matches: 21
+  0wycbaki: Societal heterogeneity contributes to complex dynamic patterns of the COVID-19 pandemics: insights from a novel Stochastic Heterogeneous Epidemic Model (SHEM)
+  4jeaqqn9: COVID-19 diagnosis and study of serum SARS-CoV-2 specific IgA, IgM and IgG by a quantitative and sensitive immunoassay
+  59cuhfi5: Gaining insights on immune responses to the novel coronavirus, COVID-19 and therapeutic challenges
+  640sw4pb: Potential of live pathogen vaccines for defeating the COVID-19 pandemic: History and mechanism
+  a00crtah: Addressing COVID‐19 Drug Development with Artificial Intelligence
+  ... 16 more
+Query: covid OR vaccine
+Matches: 357
+  02zdg7ue: Education in the Context of the Pandemic: A Look at the Case of Portugal
+  04esvfhp: Features of COVID-19 post-infectious cytokine release syndrome in children presenting to the emergency department
+  05emvz2v: Phylogenetic analysis of partial S1 and N gene sequences of infectious bronchitis virus isolates from Italy revealed genetic diversity and recombination
+  07uzz649: Convalescent Plasma Therapy: A Passive Therapy for An Aggressive COVID‐19
+  085rj2qr: Characteristics of personal protective equipment training programs in Australia and New Zealand hospitals: A survey
+  ... 352 more
+Query: NOT vaccine
+Matches: 923
+  02zdg7ue: Education in the Context of the Pandemic: A Look at the Case of Portugal
+  04esvfhp: Features of COVID-19 post-infectious cytokine release syndrome in children presenting to the emergency department
+  065hmngz: Bronchiolitis obliterans organizing pneumonia after radiofrequency ablation of lung cancer: report of three cases.
+  07uzz649: Convalescent Plasma Therapy: A Passive Therapy for An Aggressive COVID‐19
+  085rj2qr: Characteristics of personal protective equipment training programs in Australia and New Zealand hospitals: A survey
+  ... 918 more
+Query: covid AND NOT vaccine
+Matches: 280
+  02zdg7ue: Education in the Context of the Pandemic: A Look at the Case of Portugal
+  04esvfhp: Features of COVID-19 post-infectious cytokine release syndrome in children presenting to the emergency department
+  07uzz649: Convalescent Plasma Therapy: A Passive Therapy for An Aggressive COVID‐19
+  085rj2qr: Characteristics of personal protective equipment training programs in Australia and New Zealand hospitals: A survey
+  0anag9ax: How urgent do intravitreal anti-VEGF injections need to be to justify the risk of transmitting COVID-19? Proof-of-concept calculations to determine the Health Adjusted Life-Year (HALY) trade-off.
+  ... 275 more
+Query: (covid OR virus) AND vaccine
+Matches: 53
+  05emvz2v: Phylogenetic analysis of partial S1 and N gene sequences of infectious bronchitis virus isolates from Italy revealed genetic diversity and recombination
+  0pmsfrcx: Zika Vaccine Development: Current Status
+  0wycbaki: Societal heterogeneity contributes to complex dynamic patterns of the COVID-19 pandemics: insights from a novel Stochastic Heterogeneous Epidemic Model (SHEM)
+  1d17iafs: Priming with a DNA vaccine and boosting with an inactivated vaccine enhance the immune response against infectious bronchitis virus
+  1m5h3krw: Porcine deltacoronavirus infection: Etiology, cell culture for virus isolation and propagation, molecular epidemiology and pathogenesis
+  ... 48 more
+
+=== Ranked retrieval ===
+Query: covid vaccine immune response
+Processed query: covid vaccin immun respons
+1. 6fhuon6k | 0.451483 | The immune response during acute HIV-1 infection: clues for vaccine development
+2. 1d17iafs | 0.396692 | Priming with a DNA vaccine and boosting with an inactivated vaccine enhance the immune response against infectious bronchitis virus
+3. od4c6fcg | 0.354211 | Aerosolimpfung von Mäusen mit inaktiviertem Influenzavirus
+4. vbqgyll9 | 0.335271 | Strategic Spatiotemporal Vaccine Distribution Increases the Survival Rate in an Infectious Disease like Covid-19
+5. 0pmsfrcx | 0.320604 | Zika Vaccine Development: Current Status
+Top result contributions: immun=0.222565, respons=0.144711, vaccin=0.084207
+Scores represent lexical similarity, not clinical quality.
+Query: respiratory infection treatment
+Processed query: respiratori infect treatment
+1. yqr3e4kp | 0.331911 | Viruses and acute respiratory infections
+2. 3hgupch5 | 0.220218 | Practical Guidance for Clinical Microbiology Laboratories: Viruses Causing Acute Respiratory Tract Infections.
+3. ckbik777 | 0.210443 | A novel diagnostic approach may reduce inappropriate antibiotic use for acute respiratory infections.
+4. r286hc2k | 0.206962 | Treatment of severe acute respiratory syndrome with convalescent plasma.
+5. vzwu2qol | 0.205862 | Co‐infection in SARS‐CoV‐2 infected Patients: Where Are Influenza Virus and Rhinovirus/Enterovirus?
+Top result contributions: respiratori=0.208921, infect=0.122990
+Scores represent lexical similarity, not clinical quality.
+Query: coronavirus transmission prevention
+Processed query: coronaviru transmiss prevent
+1. nlzdto1h | 0.279990 | Comparison of transmissibility of coronavirus between symptomatic and asymptomatic patients: Reanalysis of the Ningbo Covid-19 data
+2. w0vm70no | 0.195235 | World Heart Federation Briefing on Prevention: Coronavirus Disease 2019 (COVID-19) in Low-Income Countries
+3. ynaum52m | 0.189076 | Health-education to prevent COVID-19 in schoolchildren: a call to action
+4. m1hampmt | 0.182151 | A Perspective on Yoga as a Preventive Strategy for Coronavirus Disease 2019
+5. b0wd2jd3 | 0.168638 | Influence of extreme weather and meteorological anomalies on outbreaks of influenza A (H1N1)
+Top result contributions: transmiss=0.182608, coronaviru=0.097382
+Scores represent lexical similarity, not clinical quality.
+
+Demo completed successfully.
